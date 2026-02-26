@@ -1,0 +1,160 @@
+/usr/bin/ffmpeg -hide_banner -y -v debug -r 12 -start_number 0 -start_number_range 1 -i /home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif%04d.png -vf scale=w=1000:h=1000:flags=neighbor,palettegen=stats_mode=full:reserve_transparent=1 -y /home/ricardenas/Proyectos/pagina_neocities/imagenes/KritaTempPalettegen_%06d.png 
+=====================================================
+Splitting the commandline.
+Reading option '-hide_banner' ... matched as option 'hide_banner' (do not show program banner) with argument '1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-r' ... matched as option 'r' (override input framerate/convert to given output framerate (Hz value, fraction or abbreviation)) with argument '12'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-start_number_range' ... matched as AVOption 'start_number_range' with argument '1'.
+Reading option '-i' ... matched as input url with argument '/home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (alias for -filter:v (apply filters to video streams)) with argument 'scale=w=1000:h=1000:flags=neighbor,palettegen=stats_mode=full:reserve_transparent=1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '/home/ricardenas/Proyectos/pagina_neocities/imagenes/KritaTempPalettegen_%06d.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option hide_banner (do not show program banner) with argument 1.
+Applying option y (overwrite output files) with argument 1.
+Applying option v (set logging level) with argument debug.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url /home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif%04d.png.
+Applying option r (override input framerate/convert to given output framerate (Hz value, fraction or abbreviation)) with argument 12.
+Successfully parsed a group of options.
+Opening an input file: /home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif%04d.png.
+[image2 @ 0x55f9d2e1bdc0] Opening '/home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif0000.png' for reading
+[file @ 0x55f9d2e28b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x55f9d2e30c00] Statistics: 825 bytes read, 0 seeks
+[image2 @ 0x55f9d2e1bdc0] Opening '/home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif0001.png' for reading
+[file @ 0x55f9d2e28b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x55f9d2e30c00] Statistics: 837 bytes read, 0 seeks
+Input #0, image2, from '/home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif%04d.png':
+  Duration: 00:00:00.08, start: 0.000000, bitrate: N/A
+  Stream #0:0, 2, 1/25: Video: png, 1 reference frame, rgba(pc, gbr/unknown/unknown), 64x64 [SAR 11811:11811 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: output url /home/ricardenas/Proyectos/pagina_neocities/imagenes/KritaTempPalettegen_%06d.png.
+Applying option vf (alias for -filter:v (apply filters to video streams)) with argument scale=w=1000:h=1000:flags=neighbor,palettegen=stats_mode=full:reserve_transparent=1.
+Successfully parsed a group of options.
+Opening an output file: /home/ricardenas/Proyectos/pagina_neocities/imagenes/KritaTempPalettegen_%06d.png.
+[out#0/image2 @ 0x55f9d2e1db40] No explicit maps, mapping streams automatically...
+[vost#0:0/png @ 0x55f9d2e1df00] Created video stream from input stream 0:0
+[AVFilterGraph @ 0x55f9d2e1d1c0] Setting 'w' to value '1000'
+[AVFilterGraph @ 0x55f9d2e1d1c0] Setting 'h' to value '1000'
+[AVFilterGraph @ 0x55f9d2e1d1c0] Setting 'flags' to value 'neighbor'
+[AVFilterGraph @ 0x55f9d2e1d1c0] Setting 'stats_mode' to value 'full'
+[AVFilterGraph @ 0x55f9d2e1d1c0] Setting 'reserve_transparent' to value '1'
+[Parsed_scale_0 @ 0x55f9d2e28e00] w:1000 h:1000 flags:'neighbor' interl:0
+detected 12 logical cores
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+[vost#0:0/png @ 0x55f9d2e1df00] Starting thread...
+[vf#0:0 @ 0x55f9d2e2a880] Starting thread...
+[vist#0:0/png @ 0x55f9d2e2d440] [dec:png @ 0x55f9d2e2adc0] Starting thread...
+[in#0/image2 @ 0x55f9d2e10740] Starting thread...
+Press [q] to stop, [?] for help
+[in#0/image2 @ 0x55f9d2e10740] EOF while reading input
+[in#0/image2 @ 0x55f9d2e10740] Terminating thread with return code 0 (success)
+[vist#0:0/png @ 0x55f9d2e2d440] [dec:png @ 0x55f9d2e2adc0] Decoder thread received EOF packet
+[AVFilterGraph @ 0x7f1c00001040] Setting 'w' to value '1000'
+[AVFilterGraph @ 0x7f1c00001040] Setting 'h' to value '1000'
+[AVFilterGraph @ 0x7f1c00001040] Setting 'flags' to value 'neighbor'
+[AVFilterGraph @ 0x7f1c00001040] Setting 'stats_mode' to value 'full'
+[AVFilterGraph @ 0x7f1c00001040] Setting 'reserve_transparent' to value '1'
+[vist#0:0/png @ 0x55f9d2e2d440] [dec:png @ 0x55f9d2e2adc0] Decoder returned EOF, finishing
+[vist#0:0/png @ 0x55f9d2e2d440] [dec:png @ 0x55f9d2e2adc0] Terminating thread with return code 0 (success)
+[Parsed_scale_0 @ 0x7f1c00004280] w:1000 h:1000 flags:'neighbor' interl:0
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] Setting 'video_size' to value '64x64'
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] Setting 'pix_fmt' to value '26'
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] Setting 'time_base' to value '1/12'
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] Setting 'pixel_aspect' to value '11811/11811'
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] Setting 'colorspace' to value '0'
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] Setting 'range' to value '2'
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] Setting 'frame_rate' to value '12/1'
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] w:64 h:64 pixfmt:rgba tb:1/12 fr:12/1 sar:11811/11811 csp:gbr range:pc
+[format @ 0x7f1c000963c0] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scale_0 @ 0x7f1c00097600] w:iw h:ih flags:'' interl:0
+[format @ 0x7f1c000963c0] auto-inserting filter 'auto_scale_0' between the filter 'Parsed_palettegen_1' and the filter 'format'
+[AVFilterGraph @ 0x7f1c00001040] query_formats: 5 queried, 9 merged, 3 already done, 0 delayed
+[auto_scale_0 @ 0x7f1c00097600] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c000b56c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c000e9fc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c0011ea80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c001535c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c00188100] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c001bcc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c001f1780] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c002262c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c0025ae00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c0028f940] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c002c4480] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c002f8fc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c000a5d80] [swscaler @ 0x7f1c0032db00] Forcing full internal H chroma due to input having non subsampled chroma
+[Parsed_scale_0 @ 0x7f1c00004280] w:64 h:64 fmt:rgba csp:gbr range:pc sar:11811/11811 -> w:1000 h:1000 fmt:bgra csp:gbr range:pc sar:1/1 flags:0x00000010
+[Parsed_scale_0 @ 0x7f1c00004280] [framesync @ 0x7f1c000043a8] Selected 1/12 time base
+[Parsed_scale_0 @ 0x7f1c00004280] [framesync @ 0x7f1c000043a8] Sync level 1
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c00372540] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c00385680] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c003987c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c003ab900] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c003bea40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c003d1b80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c003e4cc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c003f7e00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c0040af40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c0041e080] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c004311c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c00444300] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0x7f1c003626c0] [swscaler @ 0x7f1c00457440] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 0x7f1c00097600] w:16 h:16 fmt:bgra csp:gbr range:pc sar:1/1 -> w:16 h:16 fmt:rgba csp:gbr range:pc sar:1/1 flags:0x00000004
+[auto_scale_0 @ 0x7f1c00097600] [framesync @ 0x7f1c000983a8] Selected 1/12 time base
+[auto_scale_0 @ 0x7f1c00097600] [framesync @ 0x7f1c000983a8] Sync level 1
+[graph -1 input from stream 0:0 @ 0x7f1c00095780] video frame properties congruent with link at pts_time: 0
+[Parsed_scale_0 @ 0x7f1c00004280] [framesync @ 0x7f1c000043a8] Sync level 0
+[Parsed_palettegen_1 @ 0x7f1c000116c0] 3(+1) colors generated out of 3 colors; ratio=1.000000
+Output #0, image2, to '/home/ricardenas/Proyectos/pagina_neocities/imagenes/KritaTempPalettegen_%06d.png':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0, 0, 1/12: Video: png, 1 reference frame, rgba(pc, gbr/unknown/unknown, progressive), 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 12 fps, 12 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 png
+[out#0/image2 @ 0x55f9d2e1db40] Starting thread...
+[auto_scale_0 @ 0x7f1c00097600] [framesync @ 0x7f1c000983a8] Sync level 0
+[out_#0:0 @ 0x7f1c00096240] EOF on sink link out_#0:0:default.
+[vf#0:0 @ 0x55f9d2e2a880] Filtergraph returned EOF, finishing
+[vf#0:0 @ 0x55f9d2e2a880] All consumers returned EOF
+[vost#0:0/png @ 0x55f9d2e1df00] Encoder thread received EOF
+[vost#0:0/png @ 0x55f9d2e1df00] Terminating thread with return code 0 (success)
+[image2 @ 0x55f9d2e1dc40] Opening '/home/ricardenas/Proyectos/pagina_neocities/imagenes/KritaTempPalettegen_000001.png' for writing
+[file @ 0x7f1bf8000d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f1bf8041780] Statistics: 114 bytes written, 0 seeks, 1 writeouts
+[out#0/image2 @ 0x55f9d2e1db40] All streams finished
+[out#0/image2 @ 0x55f9d2e1db40] Terminating thread with return code 0 (success)
+[vf#0:0 @ 0x55f9d2e2a880] Terminating thread with return code 0 (success)
+[out#0/image2 @ 0x55f9d2e1db40] Output file #0 (/home/ricardenas/Proyectos/pagina_neocities/imagenes/KritaTempPalettegen_%06d.png):
+[out#0/image2 @ 0x55f9d2e1db40]   Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (114 bytes); 
+[out#0/image2 @ 0x55f9d2e1db40]   Total: 1 packets (114 bytes) muxed
+[out#0/image2 @ 0x55f9d2e1db40] video:0KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.08 bitrate=N/A speed=3.42x    
+[in#0/image2 @ 0x55f9d2e10740] Input file #0 (/home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif%04d.png):
+[in#0/image2 @ 0x55f9d2e10740]   Input stream #0:0 (video): 2 packets read (1662 bytes); 2 frames decoded; 0 decode errors; 
+[in#0/image2 @ 0x55f9d2e10740]   Total: 2 packets (1662 bytes) demuxed
+Input #0, image2, from '/home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo_gif%04d.png':
+  Duration: 00:00:00.08, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 64x64 [SAR 11811:11811 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from '/home/ricardenas/Proyectos/pagina_neocities/imagenes/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> scale:default
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to '/home/ricardenas/Proyectos/pagina_neocities/imagenes/ricardo.gif':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 1000x1000 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 12 fps, 100 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 gif
+[out#0/gif @ 0x5575e97ad5c0] video:25KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.077489%
+frame=    2 fps=0.0 q=-0.0 Lsize=      25KiB time=00:00:00.16 bitrate=1239.8kbits/s speed=2.54x    

@@ -1,0 +1,16 @@
+{
+  "name": "pagina_neocities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script_blog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^17.0.3"
+  }
+}

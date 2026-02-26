@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "DepartureMono";
+  src: url('../../DepartureMono/DepartureMonoNerdFontMono-Regular.otf')
+}
+
+body {
+  font-family: DepartureMono;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.contenido {
+  width: 750px;
+  border: 2px solid black;
+}
+
+.contenido img {
+  float: left;
+  width: 250px;
+  margin: 0 10px 0px 0;
+}

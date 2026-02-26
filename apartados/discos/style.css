@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "DepartureMono";
+  src: url('../DepartureMono/DepartureMonoNerdFontMono-Regular.otf')
+}
+
+body {
+  /* fuente */
+  font-size: 16px;
+  font-family: DepartureMono;
+  /* posicion */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  /* tamaño */
+}
+
+.caja_discos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 840px;
+  height: 800px;
+  border: 2px solid black;
+}
+
+.disco {
+  width: 276px;
+  height: 280px;
+  border: 2px solid black;
+}
+
+.disco img {
+  float: left;
+  width: 122px;
+  margin: 0 10px 0px 0;
+}
+
+.disco h1 {
+  font-size: 20px;
+}
