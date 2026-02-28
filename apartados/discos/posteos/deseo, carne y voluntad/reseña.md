@@ -1,18 +1,22 @@
 ---
 titulo: "deseo, carne y voluntad"
+banda: "candelabro"
 fecha: 25/02/2026
 ---
 
-**esta** reseña la hago mas que nada para ver como puedo implementar una reseña a la pagina. 
+esta reseña la hago mas que nada para ver como puedo implementar una reseña a la pagina.
 tambien me parece adecuado que la primera de estas sea justo de este album.
 
-yo hasta hace no mucho no conocia a esta banda. me interese cuando escuche  a los asia menor y, por ende, descubri a todas las demas bandas de la escena chilena.
-al principio me fui muy reacio a escucharlos, pues me dieron la impresion de ser una banda indie generica del monton. no fue hasta que vi las buenas puntuaciones que tiene el ahora o nunca en rate your music que me decidi a escucharlos.
+yo hasta hace no mucho no conocia a esta banda. me interese cuando escuche a los asia menor y, por ende, descubri a todas las demas bandas de la escena chilena.
+al principio me fui muy reacio a escucharlos, pues me dieron la impresion de ser una banda indie generica del monton.
+no fue hasta que vi las buenas puntuaciones que tiene el ahora o nunca en rate your music que me decidi a escucharlos.
 el punto es que me quede con ganas de mas, lo que justo coincidio con el anuncio de su nuevo album. yo no tenia ni dos meses de haber conocido a la banda cuando me entere de esto y, obviamente me volvi loco. aun asi, me daba miedo que no cumpliera con mis expectativos. me suele pasar cuando descubro algo que me gusta mucho. suelo negarme a escucahar mas de la banda por miedo a que no sea tan bueno como lo que ya escuche; me paso, por ejemplo, con la maquina de hacer pajaros. tarde como un año en escuchar el peliculas; hoy en dia es uno de mis discos favoritos, asi que :pppp.
 me quede ENAMORADO del album. todo el concepto de la cotidianidad de los años 2000 y de ser un joven perdido en la vida me engancho por completo. se que este no es el unico album que va sobre ser un joven perdido en la vida, pero me gusta la manera de abordar el tema que tiene Matias Avila, siempre con referencias pop que posiblemente tienen mas sentido si eres chileno, pero que igual se entienden. aparte de que justo llego en un momento de la vida en el que necesitaba escuchar esas cosas.
 cuando salio lo escuche unas cuantas veces sin poder hallarle forma a lo que estaba escuchando. no fue hasta que lo escuche como unas 7 veces que le pude hallar el gusto y, OH DIOS, sin lugar a dudas considero a este EL MEJOR ALBUM DE LA ACTUAL ESCENA CHILENA. hay pocas bandas que puedan llegar a ese nivel de lirica y intrumentalizacion, digo, no cualquier HESSE KASSEL te hace una cancion como CALIZ. todo el ambum mantiene este nivel de calidad y, en ocaciones, hasta lo SUPERA. destaco sobre todo a caliz, pecado, haz de mi, angel, domingo de ramos, tierra maldita, fracaso y todas las canciones, ahora que lo pienso :pppp.
 me sorprendio mucho todo el concepto religioso que se trata a traves de todo el album. todo esta muy bien aplicado, pues no llega a ser ni tan ambiguo ni tan TIBIO. Dios no es tratado como un ser intocable y Matias Avila no tiene miedo a hacer critica de los elementos cuestionables de la religion. en lo personal, este album tambien coincidio con una transicion de mi parte a ser mas abierto con la religion, pues en el pasado era mas reacio a aceptar todo este tipo de ideas. entonces, cuando escuche temas como angel o caliz. me impactaron impactaron fuertemente, pues estaba tratando de mejorar mi relacion con Dios.
 en cuanto a lo musical, es claro lo muy inspirados que estan por bandas como black country new road. incluso podrias pensar que estas son sus unicas influencias, pero si te escuchas a las bandas que suelen mencionar, como a fulano, congreso, los jaivas, etc, descubriras que hay un todo mundo de bandas de saxofon hay afuera y que no todo es el windmill. se nota sobre todo en canciones como prision de carne, que tienen partes instrumentales que parecen sacadas directamente del jazz fusion chileno. las guitarras son muy ruidosas, todo lo esperable de un album de post-rock; pero lo que si destaca es el bajo, que esta claramente inspirado por las bandas de jazz fusion, lo que suma mucho a las texturas mas post-rockeras y da un toque muy unico al album.
+
 en fin, que me gusto mucho el album. soy tan fan que hasta mande a hacer una camisa con el cordero de la portada. adjunto pruebas y todo :D.
 a todo el mundo le recomiendo este album cuando tengo la oportunidad. si te gusta todo lo que esta pasando actualmente con el rock, refiriendome mas que nada al jazz-rock y al post-rock, te OBLIGO a escuchar este album. tiene de las canciones mas impactantes del genero y como album, en si, es de los mejores de todo el genero, al nivel incluso de los discos de black midi o de black country.
 
+![desalambraaaaar](./desalambraaaaaaaar.jpeg)
