@@ -1,6 +1,7 @@
 ---
 titulo: "deseo, carne y voluntad"
-banda: "candelabro"
+autor: "candelabro"
+lanzamiento: 2025
 fecha: 25/02/2026
 ---
 

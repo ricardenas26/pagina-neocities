@@ -2,14 +2,24 @@ const fs = require('fs');
 const matter = require('gray-matter');
 const { marked } = require('marked');
 
-function agregarse_al_index(apartado, titulo) {
+function generarPreview(Contenidohtml) {
+  const textoPlano = Contenidohtml.replace(/<[^>]+>/g, '');
+
+  const palabras = textoPlano.split(/\s+/);
+
+  const recorte = palabras.slice(0, 100).join(' ');
+
+  return `<p>${recorte}...</p>`;
+}
+
+function agregarse_al_index(apartado, titulo, preview_contenido) {
   const index = fs.readFileSync('../apartados/' + apartado + '/index.html', 'utf8');
   let lineas = index.split('\n');
   const posteo = `
-    <div class="disco" id="${titulo}">
+    <div class="resena" id="${titulo}">
       <img src="posteos/${titulo}/portada.jpg">
       <h1> <a href="posteos/${titulo}/index.html"> ${titulo} </a> </h1>
-      <p>hhola hola hola hola hola hola hola hola hola hol aola hola hola hola hola</p>
+      ${preview_contenido}
     </div>
 `;
   lineas[11] += posteo;
@@ -25,7 +35,8 @@ function crear_html(ubicacion, apartado) {
   const contenidoHtml = marked(contenidoMd);
 
   const titulo = datos.titulo;
-  const banda = datos.banda;
+  const autor = datos.autor;
+  const lanzamiento = datos.lanzamiento;
   const fecha = datos.fecha;
   const contenido = contenidoHtml;
 
@@ -40,11 +51,12 @@ function crear_html(ubicacion, apartado) {
 <body>
 
   <div class="contenido">
-    <img src="portada.jpg">
+    <img src="portada.jpg" id="portada">
     <h1> ${titulo} </h1>
-    <h2> ${banda} </h2>
-    <h3> ${fecha} </h3>
+    <h2> ${autor} </h2>
+    <h3> ${lanzamiento} </h3>
     ${contenido}
+    <strong id="fecha"> ${fecha} </strong>
   </div>
 </body>
 
@@ -55,10 +67,13 @@ function crear_html(ubicacion, apartado) {
     if (err) throw err;
     console.log('html creado en ' + ubicacion);
   })
+
+  const preview = generarPreview(contenidoHtml);
+  agregarse_al_index(apartado, titulo, preview);
 }
 
 const raiz = '../apartados/';
-const apartados = ['discos/'];
+const apartados = ['discos/', 'peliculas/', 'libros/'];
 
 for (const apartado of apartados) {
   let ubicacion = raiz + apartado + 'posteos/';
@@ -72,8 +87,6 @@ for (const apartado of apartados) {
     const contenido = fs.readdirSync(ubicacion + posteo + '/');
     if (!contenido.includes('index.html')) { //si no encuentra un html entonces lo crea
       crear_html(ubicacion + posteo + '/', apartado);
-      agregarse_al_index(apartado, posteo);
     }
   }
-
 }
