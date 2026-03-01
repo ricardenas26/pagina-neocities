@@ -13,10 +13,19 @@ body {
 .contenido {
   width: 750px;
   border: 2px solid black;
+  padding: 20px;
+}
+
+#portada {
+  float: left;
+  width: 255px;
+  margin: 0 10px 0px 0;
 }
 
 .contenido img {
-  float: left;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
   width: 250px;
-  margin: 0 10px 0px 0;
 }

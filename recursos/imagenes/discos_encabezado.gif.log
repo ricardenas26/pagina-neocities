@@ -1,0 +1,21 @@
+/usr/bin/ffmpeg -hide_banner -y -y -r 12 -start_number 0 -start_number_range 1 -i /home/ricardenas/Proyectos/pagina_neocities/recursos/imagenes/fotograma%04d.png -i /home/ricardenas/Proyectos/pagina_neocities/recursos/imagenes/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff /home/ricardenas/Proyectos/pagina_neocities/recursos/imagenes/discos_encabezado.gif
+=====================================================
+Input #0, image2, from '/home/ricardenas/Proyectos/pagina_neocities/recursos/imagenes/fotograma%04d.png':
+  Duration: 00:00:00.12, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 4000x750 [SAR 39370:39370 DAR 16:3], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from '/home/ricardenas/Proyectos/pagina_neocities/recursos/imagenes/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to '/home/ricardenas/Proyectos/pagina_neocities/recursos/imagenes/discos_encabezado.gif':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 4000x750 [SAR 1:1 DAR 16:3], q=2-31, 200 kb/s, 12 fps, 100 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 gif
+[out#0/gif @ 0x560c2790d240] video:57KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.034120%
+frame=    3 fps=0.0 q=-0.0 Lsize=      57KiB time=00:00:00.25 bitrate=1876.4kbits/s speed=0.518x    
