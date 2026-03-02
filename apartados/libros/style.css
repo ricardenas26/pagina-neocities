@@ -5,7 +5,7 @@
 
 body {
   /* fuente */
-  font-size: 16px;
+  font-size: 17px;
   font-family: DepartureMono;
   /* posicion */
   display: flex;
@@ -36,16 +36,17 @@ body {
 
 .resena img {
   float: left;
-  width: 121px;
+  width: 125px;
   margin: 0 10px 0px 0;
 }
 
 .resena h1 {
   font-size: 20px;
+  margin-top: 0px;
 }
 
 .resena p {
-  margin: 0;
+  margin-top: -10px;
   padding-left: 5px;
   padding-right: 5px;
 }

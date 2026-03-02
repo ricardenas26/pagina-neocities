@@ -5,7 +5,7 @@
 
 body {
   font-family: DepartureMono;
-  font-size: 18px;
+  font-size: 19px;
   display: flex;
   justify-content: center;
   padding-top: 50px;
@@ -19,7 +19,7 @@ body {
 
 #portada {
   float: left;
-  width: 255px;
+  width: 270px;
   margin: 0 10px 0px 0;
 }
 

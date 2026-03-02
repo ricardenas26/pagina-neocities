@@ -3,10 +3,15 @@
   src: url('recursos/DepartureMono/DepartureMonoNerdFontMono-Regular.otf')
 }
 
+html {
+  image-rendering: pixelated;
+}
+
 body {
   /* fuente */
-  font-size: 20px;
+  font-size: 21px;
   font-family: DepartureMono;
+  line-height: 1.25;
   /* posicion */
   display: flex;
   flex-direction: column;
@@ -14,8 +19,8 @@ body {
 }
 
 #encabezado {
-  width: 500px;
-  padding-bottom: 25px;
+  width: 650px;
+  padding-bottom: 10px;
 }
 
 .contenido {
@@ -32,11 +37,13 @@ body {
 #ricardo_gif {
   float: left;
   border: 2px solid black;
-  width: 180px;
-  margin: 0 10px 10px 0;
+  width: 150px;
+  margin: 0 10px 0px 0;
 }
 
 .caja_links {
+  display: flex;
+  flex-direction: column;
   width: 250px;
   height: 520px;
   border-bottom: 2px solid black;
@@ -45,6 +52,7 @@ body {
 }
 
 .link {
+  flex: 1;
   display: flex;
   align-items: center;
   padding-left: 5px;
@@ -59,5 +67,5 @@ body {
 }
 
 .link img {
-  width: 60px;
+  width: 66px;
 }
