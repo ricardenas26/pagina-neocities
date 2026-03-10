@@ -16,7 +16,7 @@ function agregarse_al_index(apartado, titulo, preview_contenido) {
   const index = fs.readFileSync('../apartados/' + apartado + '/index.html', 'utf8');
   let lineas = index.split('\n');
   const posteo = `
-    <div class="resena" id="${titulo}">
+    <div class="entrada" id="${titulo}">
       <img src="posteos/${titulo}/portada.jpg">
       <h1> <a href="posteos/${titulo}/index.html"> ${titulo} </a> </h1>
       ${preview_contenido}
@@ -27,7 +27,7 @@ function agregarse_al_index(apartado, titulo, preview_contenido) {
 }
 
 function crear_html(ubicacion, apartado) {
-  const md = fs.readFileSync(ubicacion + '/reseña.md', 'utf8');
+  const md = fs.readFileSync(ubicacion + '/entrada.md', 'utf8');
   const parsed = matter(md);
 
   const datos = parsed.data;

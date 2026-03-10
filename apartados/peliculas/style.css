@@ -18,7 +18,7 @@ body {
   width: 750px;
 }
 
-.caja_resenas {
+.caja_entradas {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -27,25 +27,25 @@ body {
   border: 2px solid black;
 }
 
-.resena {
+.entrada {
   width: 276px;
   height: 280px;
   border: 2px solid black;
   overflow: hidden;
 }
 
-.resena img {
+.entrada img {
   float: left;
   width: 125px;
   margin: 0 10px 0px 0;
 }
 
-.resena h1 {
+.entrada h1 {
   font-size: 20px;
   margin-top: 0px;
 }
 
-.resena p {
+.entrada p {
   margin-top: -10px;
   padding-left: 5px;
   padding-right: 5px;

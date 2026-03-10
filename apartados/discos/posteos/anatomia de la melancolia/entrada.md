@@ -21,4 +21,3 @@ dejo aqui el link del blog del que estuve hablando y eso.
 
 [Blog de musica de indie/alternativa argentina](https://tegraboundisco.blogspot.com/2015/12/tus-hermosos-anatomia-de-melancolia-1998.html)
 
-

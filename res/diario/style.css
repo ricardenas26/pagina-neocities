@@ -5,7 +5,7 @@
 
 body {
   /* fuente */
-  font-size: 17px;
+  font-size: 19px;
   font-family: DepartureMono;
   /* posicion */
   display: flex;
@@ -15,38 +15,35 @@ body {
 }
 
 #encabezado {
-  width: 750px;
+  width: 650px;
+  padding-bottom: 15px;
 }
 
 .caja_entradas {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
   width: 840px;
-  height: 800px;
-  border: 2px solid black;
 }
 
 .entrada {
-  width: 276px;
-  height: 280px;
+  width: 840px;
+  height: 215px;
   border: 2px solid black;
   overflow: hidden;
-}
-
-.entrada img {
-  float: left;
-  width: 122px;
-  margin: 0 10px 0px 0;
+  padding-bottom: 5px;
 }
 
 .entrada h1 {
+  text-align: center;
   font-size: 20px;
-  margin-top: 0px;
+  margin-top: 7px;
 }
 
 .entrada p {
-  margin-top: -10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin-top: -5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 7;   /* número de líneas visibles */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
