@@ -37,8 +37,10 @@ function crear_html(ubicacion, apartado) {
   const fecha = datos.fecha;
   const contenido = contenidoHtml;
 
+  var contenidoArchivo = '';
+
   if(apartado == 'blog/'){
-    const contenidoArchivo = `
+    contenidoArchivo = `
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +60,7 @@ function crear_html(ubicacion, apartado) {
 </html>
 `;
 }if(apartado == 'diario/'){
-    const contenidoArchivo = `
+    contenidoArchivo = `
 <!DOCTYPE html>
 <html>
 
@@ -76,7 +78,8 @@ function crear_html(ubicacion, apartado) {
 
 </html>
 `;
-}
+
+  }
 
   fs.writeFile(ubicacion + '/index.html', contenidoArchivo, (err) => {
     if (err) throw err;

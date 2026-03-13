@@ -21,29 +21,33 @@ body {
 
 .caja_entradas {
   width: 840px;
+  border: 2px solid black;
 }
 
 .entrada {
   width: 840px;
-  height: 215px;
-  border: 2px solid black;
-  overflow: hidden;
   padding-bottom: 5px;
 }
 
-.entrada h1 {
-  text-align: center;
-  font-size: 20px;
+.entrada p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  font-size: 24px;
   margin-top: 7px;
 }
 
-.entrada p {
-  margin-top: -5px;
-  padding-left: 10px;
-  padding-right: 10px;
+.entrada h2 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 7px;
+}
 
-  display: -webkit-box;
-  -webkit-line-clamp: 7;   /* número de líneas visibles */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+.entrada img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  width: 650px;
 }
