@@ -17,7 +17,7 @@ function agregarse_al_index(apartado, titulo, preview_contenido) {
   let lineas = index.split('\n');
   const posteo = `
     <div class="entrada" id="${titulo}">
-      <img src="posteos/${titulo}/portada.jpg">
+      <img src="posteos/${titulo}/portada.gif">
       <h1> <a href="posteos/${titulo}/index.html"> ${titulo} </a> </h1>
       ${preview_contenido}
     </div>
@@ -51,7 +51,7 @@ function crear_html(ubicacion, apartado) {
 <body>
 
   <div class="contenido">
-    <img src="portada.jpg" id="portada">
+    <img src="portada.gif" id="portada">
     <h1> ${titulo} </h1>
     <h2> ${autor} </h2>
     <h3> ${lanzamiento} </h3>

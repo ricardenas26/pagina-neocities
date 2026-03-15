@@ -28,16 +28,18 @@ body {
 }
 
 .entrada {
-  width: 276px;
+  width: 278px;
   height: 280px;
-  border: 2px solid black;
+  border: 1px solid black;
   overflow: hidden;
 }
 
 .entrada img {
   float: left;
-  width: 122px;
+  width: 118px;
   margin: 0 10px 0px 0;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .entrada h1 {
