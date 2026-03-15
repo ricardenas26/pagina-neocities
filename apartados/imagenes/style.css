@@ -3,6 +3,11 @@
   src: url('../../recursos/DepartureMono/DepartureMonoNerdFontMono-Regular.otf')
 }
 
+html {
+  background-color: white;
+  image-rendering: pixelated;
+}
+
 body {
   /* fuente */
   font-size: 19px;
@@ -15,7 +20,7 @@ body {
 }
 
 #encabezado {
-  width: 650px;
+  width: 500px;
   padding-bottom: 15px;
 }
 
