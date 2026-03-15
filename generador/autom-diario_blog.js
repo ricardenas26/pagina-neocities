@@ -47,7 +47,7 @@ function crear_html(ubicacion, apartado) {
 <head>
   <title> ${titulo} </title>
   <meta charset="UTF-8">
-  <link href="../style.css" rel="stylesheet" type="text/css" media="all"> </head>
+  <link href="../../../css/entrada.css" rel="stylesheet" type="text/css" media="all"> </head>
 <body>
 
   <div class="contenido">

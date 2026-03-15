@@ -8,14 +8,11 @@ html {
 }
 
 body {
-  /* fuente */
   font-size: 19px;
   font-family: DepartureMono;
-  /* posicion */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* tamaño */
 }
 
 #encabezado {
