@@ -1,6 +1,6 @@
 ---
 titulo: 20 años
-fecha: 11/03/26
+fecha: 11-03-26
 ---
 
 este año cumpli 20 años, y cada ves que lo recuerdo siento escalofrios. <br>

@@ -5,6 +5,7 @@
 
 html {
   image-rendering: pixelated;
+  background-color: white;
 }
 
 body {

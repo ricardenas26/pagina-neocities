@@ -3,6 +3,11 @@
   src: url('../../../recursos/DepartureMono/DepartureMonoNerdFontMono-Regular.otf')
 }
 
+html {
+  image-rendering: pixelated;
+  background-color: white;
+}
+
 body {
   font-family: DepartureMono;
   font-size: 19px;

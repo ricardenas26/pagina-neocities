@@ -1,0 +1,41 @@
+:root {
+  --color-visitado: purple;
+  --color-link: blue; 
+  --gif-foco: url('./recursos/imagenes/foco-encendido.gif'); 
+  --revertido: none;
+}
+
+.cambiar-modo{
+  filter: invert(1);
+  --color-visitado: green;
+  --color-link: orange;
+  --gif-foco: url('./recursos/imagenes/foco-apagado.gif');
+  --revertido: invert(1);
+}
+
+#boton-modo{
+  background-image: var(--gif-foco);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+a:visited {
+  color: var(--color-visitado);
+}
+
+a {
+  color: var(--color-link);
+}
+
+img {
+  filter: var(--revertido);
+}
+
+.cambiar-modo img[src$=".gif"] {
+  filter: invert(0);
+}

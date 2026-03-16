@@ -2,7 +2,7 @@
 titulo: "una semana en el motor de un autobus"
 autor: "los planetas"
 lanzamiento: 1998
-fecha: 02/03/2026
+fecha: 02-03-2026
 ---
 
 yo no tenia idea de que en españa hubiera bandas tan buenas como Los Planetas, por alguna razon pensaba que todo se limitaba a Hombres G y a Los Heroes Del Silencio, PERO NADA QUE VER. al parecer españa es una fabrica de bandas de noise pop de gran calidad. Los Punsetes, Triangulo De Amor Bizarro, Perfectos Miserables, etc. son una prueba de esto, lo que me parece curioso, pues en latinoamerica no tenemos muchas de estas bandas, aparte de El Mato A Un Policia Motorizado, que se vendieron al indie, asi que no cuentan :p. pero los mejores exponentes españoles del genero son Los Planetas.

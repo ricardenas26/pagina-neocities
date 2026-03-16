@@ -1,5 +1,5 @@
 ---
-titulo: 08-03-26
+fecha: 08-03-26
 ---
 
 hola! al fin hice que el apartado de blog y diario funcionara. fue sorprendentemente facil, no se porque me sordie tanto tiempo, si solo me tomo como dos horas :p. <br>

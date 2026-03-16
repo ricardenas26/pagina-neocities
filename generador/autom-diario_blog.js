@@ -21,7 +21,7 @@ function agregarse_al_index(apartado, titulo, preview_contenido) {
       ${preview_contenido}
     </div>
 `;
-  lineas[11] += posteo;
+  lineas[12] += posteo;
   fs.writeFileSync('../apartados/' + apartado + '/index.html', lineas.join('\n'));
 }
 
@@ -47,6 +47,7 @@ function crear_html(ubicacion, apartado) {
 <head>
   <title> ${titulo} </title>
   <meta charset="UTF-8">
+  <link href="../../../../libreria.css" rel="stylesheet" type="text/css" media="all">
   <link href="../../../css/entrada.css" rel="stylesheet" type="text/css" media="all"> </head>
 <body>
 
@@ -55,6 +56,7 @@ function crear_html(ubicacion, apartado) {
     <h2> ${fecha} </h2>
     ${contenido}
   </div>
+  <script src="../../../../scripts/modo-oscuro.js"></script>
 </body>
 
 </html>
@@ -65,15 +67,17 @@ function crear_html(ubicacion, apartado) {
 <html>
 
 <head>
-  <title> ${titulo} </title>
+  <title> ${fecha} </title>
   <meta charset="UTF-8">
+  <link href="../../../../libreria.css" rel="stylesheet" type="text/css" media="all">
   <link href="../style.css" rel="stylesheet" type="text/css" media="all"> </head>
 <body>
 
   <div class="contenido">
-    <h1> ${titulo} </h1>
+    <h1> ${fecha} </h1>
     ${contenido}
   </div>
+  <script src="../../../../scripts/modo-oscuro.js"></script>
 </body>
 
 </html>

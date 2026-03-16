@@ -2,7 +2,7 @@
 titulo: "deseo, carne y voluntad"
 autor: "candelabro"
 lanzamiento: 2025
-fecha: 25/02/2026
+fecha: 25-02-2026
 ---
 
 esta reseña la hago mas que nada para ver como puedo implementar una reseña a la pagina.

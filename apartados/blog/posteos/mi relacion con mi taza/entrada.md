@@ -1,6 +1,6 @@
 ---
 titulo: mi relacion con mi taza
-fecha: 16/01/26
+fecha: 16-01-26
 ---
 
 cuando sali del cbtis lo unico que me dieron (aparte de un certidicado) fue una taza.<br>

@@ -2,7 +2,7 @@
 titulo: "anatomia de la melancolia"
 autor: "tus hermosos"
 lanzamiento: 1998
-fecha: 28/02/2026
+fecha: 28-02-2026
 ---
 
 recuerdo estar buscando por internet algun link de descarga al album rara de juana molina. el caso es que acabe en el blogspot de un tipo argentino que hablaba de discos indie y alternativos del pais.

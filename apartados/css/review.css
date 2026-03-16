@@ -5,6 +5,7 @@
 
 html {
   image-rendering: pixelated;
+  background-color: white;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
 
 #portada {
   float: left;
-  width: 270px;
+  width: 268px;
   margin: 0 10px 0px 0;
 }
 

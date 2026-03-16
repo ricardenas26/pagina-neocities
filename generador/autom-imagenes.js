@@ -12,7 +12,7 @@ function agregarse_al_index(apartado, titulo, preview_contenido) {
         <h2>${titulo}</h2>
       </div>
 `;
-  lineas[11] += posteo;
+  lineas[12] += posteo;
   fs.writeFileSync('../apartados/' + apartado + '/index.html', lineas.join('\n'));
 }
 
