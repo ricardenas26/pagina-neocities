@@ -12,8 +12,9 @@ body {
   font-family: DepartureMono;
   font-size: 19px;
   display: flex;
-  justify-content: center;
-  padding-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .contenido {

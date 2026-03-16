@@ -9,11 +9,9 @@ html {
 }
 
 body {
-  /* fuente */
   font-size: 21px;
   font-family: DepartureMono;
   line-height: 1.25;
-  /* posicion */
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -39,3 +39,9 @@ img {
 .cambiar-modo img[src$=".gif"] {
   filter: invert(0);
 }
+
+#menu{
+  margin-top: -25px;
+  margin-bottom: -20px;
+  font-size: 21px;
+}
