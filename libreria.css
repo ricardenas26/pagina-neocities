@@ -1,7 +1,7 @@
 :root {
   --color-visitado: purple;
-  --color-link: blue; 
-  --gif-foco: url('./recursos/imagenes/foco-encendido.gif'); 
+  --color-link: blue;
+  --gif-foco: url('recursos/imagenes/foco-encendido.gif');
   --revertido: none;
 }
 
@@ -19,8 +19,8 @@
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 40px;
+  left: 40px;
   cursor: pointer;
 }
 

@@ -5,7 +5,6 @@
 
 html {
   background-color: white;
-  image-rendering: pixelated;
 }
 
 body {
@@ -55,4 +54,8 @@ body {
   margin-right: auto;
   border: 2px solid black;
   width: 650px;
+}
+
+img[src$=".gif"] {
+  image-rendering: pixelated;
 }

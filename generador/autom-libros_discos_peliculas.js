@@ -47,8 +47,8 @@ function crear_html(ubicacion, apartado) {
 <head>
   <title> ${titulo} </title>
   <meta charset="UTF-8">
-  <link href="../../../../libreria.css" rel="stylesheet" type="text/css" media="all">
-  <link href="../../../css/review.css" rel="stylesheet" type="text/css" media="all"> </head>
+  <link href="/libreria.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/apartados/css/review.css" rel="stylesheet" type="text/css" media="all"> </head>
 <body>
 
   <div class="contenido">
@@ -59,7 +59,7 @@ function crear_html(ubicacion, apartado) {
     ${contenido}
     <strong id="fecha"> ${fecha} </strong>
   </div>
-  <script src="../../../../scripts/modo-oscuro.js"></script>
+  <script src="/scripts/modo-oscuro.js"></script>
 </body>
 
 </html>

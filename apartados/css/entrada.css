@@ -4,7 +4,6 @@
 }
 
 html {
-  image-rendering: pixelated;
   background-color: white;
 }
 
@@ -40,4 +39,8 @@ body {
 .contenido h2 {
   text-align: center;
   margin: 0 0 9px 0;
+}
+
+img[src$=".gif"] {
+  image-rendering: pixelated;
 }

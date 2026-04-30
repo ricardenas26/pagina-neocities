@@ -33,8 +33,8 @@ function crear_html(ubicacion, apartado) {
   const contenidoMd = parsed.content;
   const contenidoHtml = marked(contenidoMd);
 
-  const titulo = datos.titulo;
-  const fecha = datos.fecha;
+  var titulo = datos.titulo;
+  var fecha = datos.fecha;
   const contenido = contenidoHtml;
 
   var contenidoArchivo = '';
@@ -47,8 +47,8 @@ function crear_html(ubicacion, apartado) {
 <head>
   <title> ${titulo} </title>
   <meta charset="UTF-8">
-  <link href="../../../../libreria.css" rel="stylesheet" type="text/css" media="all">
-  <link href="../../../css/entrada.css" rel="stylesheet" type="text/css" media="all"> </head>
+  <link href="/libreria.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/apartados/css/entrada.css" rel="stylesheet" type="text/css" media="all"> </head>
 <body>
 
   <div class="contenido">
@@ -56,7 +56,7 @@ function crear_html(ubicacion, apartado) {
     <h2> ${fecha} </h2>
     ${contenido}
   </div>
-  <script src="../../../../scripts/modo-oscuro.js"></script>
+  <script src="/scripts/modo-oscuro.js"></script>
 </body>
 
 </html>
@@ -69,15 +69,15 @@ function crear_html(ubicacion, apartado) {
 <head>
   <title> ${fecha} </title>
   <meta charset="UTF-8">
-  <link href="../../../../libreria.css" rel="stylesheet" type="text/css" media="all">
-  <link href="../style.css" rel="stylesheet" type="text/css" media="all"> </head>
+  <link href="/libreria.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/apartados/css/entrada.css" rel="stylesheet" type="text/css" media="all"> </head>
 <body>
 
   <div class="contenido">
     <h1> ${fecha} </h1>
     ${contenido}
   </div>
-  <script src="../../../../scripts/modo-oscuro.js"></script>
+  <script src="/scripts/modo-oscuro.js"></script>
 </body>
 
 </html>
@@ -89,6 +89,10 @@ function crear_html(ubicacion, apartado) {
     if (err) throw err;
     console.log('html creado en ' + ubicacion);
   })
+
+  if(apartado == 'diario/'){
+    titulo = fecha;
+  }
 
   const preview = generarPreview(contenidoHtml);
   agregarse_al_index(apartado, titulo, preview);

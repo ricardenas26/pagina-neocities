@@ -4,7 +4,6 @@
 }
 
 html {
-  image-rendering: pixelated;
   background-color: white;
 }
 
@@ -54,4 +53,8 @@ body {
   text-align: right;
   clear: both;
   margin-top: 10px;
+}
+
+img[src$=".gif"] {
+  image-rendering: pixelated;
 }

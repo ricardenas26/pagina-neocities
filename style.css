@@ -22,6 +22,12 @@ body {
   padding-bottom: 10px;
 }
 
+#encabezado-comentarios {
+  width: 650px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+
 .contenido {
   display: flex;
 }
@@ -67,4 +73,10 @@ body {
 
 .link img {
   width: 66px;
+}
+
+iframe {
+  width: 772px;
+  height: 500px;
+  border: 2px solid black;
 }
