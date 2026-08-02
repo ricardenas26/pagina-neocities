@@ -1,0 +1,1 @@
+en el mundo sol hay dos tipos de personas:

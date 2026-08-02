@@ -9,7 +9,7 @@ menu.innerHTML = `
     <a href="/apartados/imagenes/index.html">imagenes</a> |
     <a href="/apartados/blog/index.html">blog</a> |
     <a href="/apartados/diario/index.html">diario</a> |
-    <a href="/https://www.last.fm/user/ricardenas26">last.fm</a>
+    <a href="https://www.last.fm/user/ricardenas26">last.fm</a>
   </p>
 `;
 document.body.prepend(menu);
