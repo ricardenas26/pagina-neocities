@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> pagina ${num} </title>
+  <meta charset="UTF-8">
+  <link href="/apartados/ccs/panel.css" rel="stylesheet" type="text/css" media="all"> </head>
+  <link href="/libreria.css" rel="stylesheet" type="text/css" media="all">
+<body>
+
+  <div class="contenido">
+    <h1> pagina ${num} </h1>
+    <img src="panel.gif" class="panel">
+    <p>${descripcion}</p>
+      ${pesterlog}
+    <a href="apartados/comics/en-nuestros-ultimos-dias/paneles/${num - 1}/index.html"> <== </a>
+    <a href="apartados/comics/en-nuestros-ultimos-dias/paneles/${num + 1}/index.html"> ==> </a>
+  </div>
+  <script src="/scripts/modo-oscuro.js"></script>
+</body>
+
+</html>
+
+
+    <div class="pesterlog">
+
+        <span class="ruben">
+          ruben: dios que paso? 
+        </span>
+        <br>
+
+        <span class="ismael">
+          ismael: me acaban de avisar que adrian se suicido
+        </span>
+        <br>
+
+        <span class="ruben">
+          ruben: que? enserio?
+        </span>
+        <br>
+
+        <span class="ismael">
+          ismael: si, me acaba de avisar su hermana
+        </span>
+        <br>
+
+    </div>
+
+var pesterlog = '<div class = "pesterlog">
+'
+
+for bloque in bloques do
+  hacer posible arreglo lineas
+  nombre = linea[0]
+  pesterlog += /n + <span class = "nombre">
+  for linea in lineas (comenzando desde 1) do
+    pesterlog += nombre + linea + /n
+  pesterlog += </span/
+  <br>
+var pesterlog += '</div>'

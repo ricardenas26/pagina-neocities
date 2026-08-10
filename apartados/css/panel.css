@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "DepartureMono";
+  src: url('../../../recursos/DepartureMono/DepartureMonoNerdFontMono-Regular.otf')
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  display: flex;
+  font-family: DepartureMono;
+  font-size: 19px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.panel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  width: 650px;
+}
+
+.controles {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.control_izquierdo,
+.control_derecho {
+  font-size: 30px;
+}
+
+.pesterlog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2em;
+  background: #eeeeee;
+  border: dashed 1px #696969;
+  margin-bottom: 2em;
+  font-weight: bold;
+  width: 540px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+.contenido {
+  text-align: center;
+  width: 750px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+img[src$=".gif"] {
+  image-rendering: pixelated;
+}
+
+.ruben {
+  color: #008431;
+}
+
+.ana {
+  color: #0039ce;
+}
+
+.ismael {
+  color: #ff1010;
+}
+
+.adrian {
+  color: #ffe700;
+}
