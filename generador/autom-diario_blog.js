@@ -46,6 +46,7 @@ function crear_html(ubicacion, apartado) {
 
 <head>
   <title> ${titulo} </title>
+  <link rel="icon" href="/recursos/imagenes/icono.png"image/png">
   <meta charset="UTF-8">
   <link href="/libreria.css" rel="stylesheet" type="text/css" media="all">
   <link href="/apartados/css/entrada.css" rel="stylesheet" type="text/css" media="all"> </head>

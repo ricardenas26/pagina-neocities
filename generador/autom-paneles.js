@@ -42,31 +42,32 @@ for (const carpeta of carpetas){
 
     //CONTENIDO
     var contenido = `
-    <!DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
 
-    <head>
-      <title> pagina ${numeroPanel} </title>
-      <meta charset="UTF-8">
-      <link href="/apartados/css/panel.css" rel="stylesheet" type="text/css" media="all"> </head>
-      <link href="/libreria.css" rel="stylesheet" type="text/css" media="all">
-    <body>
+<head>
+  <title> pagina ${numeroPanel} </title>
+  <link rel="icon" href="/recursos/imagenes/icono.png"image/png">
+  <meta charset="UTF-8">
+  <link href="/apartados/css/panel.css" rel="stylesheet" type="text/css" media="all"> </head>
+  <link href="/libreria.css" rel="stylesheet" type="text/css" media="all">
+<body>
 
-      <div class="contenido">
-        <h1> pagina ${numeroPanel} </h1>
-        <img src="panel.gif" class="panel">
-        <p>${descripcion}</p>
-          ${pesterlog}
-        <div class="controles">
-            <a href="/apartados/comics/en-nuestros-ultimos-dias/paneles/${Number(numeroPanel) - 1}/index.html" class="control_izquierdo">&lt;==</a>
-            <a href="/apartados/comics/en-nuestros-ultimos-dias/paneles/${Number(numeroPanel) + 1}/index.html" class="control_derecho">==&gt;</a>
-        </div>
-      </div>
-      <script src="/scripts/modo-oscuro.js"></script>
-    </body>
+  <div class="contenido">
+    <h1> pagina ${numeroPanel} </h1>
+    <img src="panel.gif" class="panel">
+    <p>${descripcion}</p>
+      ${pesterlog}
+    <div class="controles">
+        <a href="/apartados/comics/en-nuestros-ultimos-dias/paneles/${Number(numeroPanel) - 1}/index.html" class="control_izquierdo">&lt;==</a>
+        <a href="/apartados/comics/en-nuestros-ultimos-dias/paneles/${Number(numeroPanel) + 1}/index.html" class="control_derecho">==&gt;</a>
+    </div>
+  </div>
+  <script src="/scripts/modo-oscuro.js"></script>
+</body>
 
-    </html>
-    `
+</html>
+`
 
     var cosa = ""
 
