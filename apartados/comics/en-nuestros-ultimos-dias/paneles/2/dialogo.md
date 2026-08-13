@@ -2,10 +2,10 @@ ruben
 dios, que paso?
 
 ismael
-me acaban de avisar que adrian se suicido
+me acaban de avisar que esteban se suicido
 
 ruben
 que? enserio?
 
 ismael
-si, me acaba de avisar su hermana
+si, me aviso su hermana

@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 //LESCTURA
-var directorio = "../apartados/comics/en-nuestros-ultimos-dias/paneles/"
+var directorio = "../apartados/comics/en-nuestros-ultimos-dias/paneles"
 const carpetas = fs.readdirSync(directorio);
 for (const carpeta of carpetas){
   numeroPanel = carpeta;
