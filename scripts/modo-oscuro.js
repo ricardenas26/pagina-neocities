@@ -1,8 +1,7 @@
 const menu = document.createElement("div");
 menu.id = "menu";
 menu.innerHTML = `
-  <p>
-    <a href="/index.html">menu</a> |
+  <p style="font-size: 19px;"> <a href="/index.html">menu</a> |
     <a href="/apartados/discos/index.html">discos</a> |
     <a href="/apartados/peliculas/index.html">peliculas</a> |
     <a href="/apartados/libros/index.html">libros</a> |
@@ -10,7 +9,7 @@ menu.innerHTML = `
     <a href="/apartados/blog/index.html">blog</a> |
     <a href="/apartados/diario/index.html">diario</a> |
     <a href="/apartados/comics/index.html">comics</a> |
-    <a href="https://ricardenas.carrd.com/">links</a>
+    <a href="/apartados/links/index.html">links</a>
   </p>
 `;
 document.body.prepend(menu);

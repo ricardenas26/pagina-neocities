@@ -2,14 +2,9 @@
   font-family: "DepartureMono";
   src: url('../../../recursos/DepartureMono/DepartureMonoNerdFontMono-Regular.otf')
 }
-
-html {
-  background-color: white;
+html { background-color: white;
 }
-
-body {
-  display: flex;
-  font-family: DepartureMono;
+body { display: flex; font-family: DepartureMono;
   font-size: 19px;
   flex-direction: column;
   align-items: center;
@@ -25,17 +20,19 @@ body {
 }
 
 .controles {
-  width: 750px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 60px;
-  box-sizing: border-box;
+  display: block;
+  text-align: left;
+  padding-left: 25px;
+  font-size: 28px;
 }
 
-.control_izquierdo,
-.control_derecho {
-  font-size: 30px;
+.controles2 {
+  display: block;
+  text-align: left;
+  padding-left: 25px;
+  font-size: 20px;
 }
+
 
 .pesterlog {
   display: block;
@@ -63,18 +60,14 @@ img[src$=".gif"] {
   image-rendering: pixelated;
 }
 
-.ruben {
-  color: #008431;
+.CARLOS {
+  color: #3f3f74;
 }
 
-.alicia {
-  color: #0039ce;
+.OLIVER {
+  color: #4b692f;
 }
 
-.ismael {
-  color: #ff1010;
-}
-
-.esteban {
-  color: #ffe700;
+.RAFAEL {  
+  color: #df7126;
 }

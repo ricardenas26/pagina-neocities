@@ -1,0 +1,160 @@
+# pagina 1
+[color=#ff1010]ismael: ey, ruben, despierta[/color]
+[color=#ff1010]ismael: ruben[/color]
+[color=#ff1010]ismael: despierta[/color]
+
+# pagina 2
+[color=#008431]ruben: dios, que paso?[/color]
+[color=#ff1010]ismael: me acaban de avisar que esteban se suicido[/color]
+[color=#008431]ruben: que? enserio?[/color]
+[color=#ff1010]ismael: si me aviso su hermana[/color]
+
+# pagina 3
+[color=#008431]ruben: la misma hermana que piensa que somos sus amigos?[/color]
+[color=#ff1010]ismael: si, esa misma[/color]
+[color=#008431]ruben: y como paso?[/color]
+[color=#ff1010]ismael: no sabe mucho al respecto[/color]
+[color=#ff1010]ismael: dice que llego a su casa y lo encontro colgado del ventilador[/color]
+[color=#008431]ruben: un ventilador puede aguantar el peso de una persona?[/color]
+[color=#ff1010]ismael: pues eso parece[/color]
+[color=#008431]ruben: dios...[/color]
+[color=#ff1010]ismael: oye[/color]
+[color=#ff1010]ismael: recuerdas la promesa que habiamos hecho[/color]
+[color=#008431]ruben: la de que viviriamos para joderle la vida a ese idiota?[/color]
+[color=#ff1010]ismael: si, esa[/color]
+[color=#ff1010]ismael: bueno[/color]
+[color=#ff1010]ismael: ahora que haremos?[/color]
+[color=#008431]ruben: pues nada[/color]
+[color=#008431]ruben: ya no hay razon para vivir[/color]
+[color=#008431]ruben: tocara que nos suidicemos tambien[/color]
+[color=#008431]ruben: prepara las cosas[/color]
+[color=#008431]ruben: cuelga dos sogas del ventilador[/color]
+[color=#008431]ruben: y haz una nota o algo[/color]
+[color=#008431]ruben: pon que no nos suicidamos por esteban, o algo asi[/color]
+
+# pagina 4
+
+# pagina 5
+
+# pagina 6
+[color=#ff1010]ismael: ya casi esta todo listo[/color]
+[color=#ff1010]ismael: cuelgo tu soga y ya esta[/color]
+[color=#008431]ruben: va[/color]
+[color=#008431]ruben: de mientras deja les dejo un mensaje a las nenas[/color]
+[color=#008431]ruben: oye guapa[/color]
+[color=#008431]ruben: me voy a suicidar[/color]
+[color=#008431]ruben: no te preocupes ni nada[/color]
+[color=#008431]ruben: adios[/color]
+[color=#008431]ruben: ya no mandes mensaje xfa[/color]
+
+# pagina 7
+[color=#ff1010]ismael: listo[/color]
+[color=#008431]ruben: pues nada[/color]
+[color=#008431]ruben: llego la hora[/color]
+
+# pagina 8
+[color=#ff1010]ismael: oye[/color]
+[color=#ff1010]ismael: solo quiero decir que lamento cada momento desde que te conoci[/color]
+[color=#ff1010]ismael: todo ha sido un asco desde que vivimos juntos[/color]
+[color=#008431]ruben: y las cosas no eran un asco ya desde antes?[/color]
+[color=#ff1010]ismael: no lo recuerdo...[/color]
+[color=#008431]ruben: ya...[/color]
+
+# pagina 9
+[color=#000000]???: oigan[/color]
+[color=#000000]???: ustedes dos[/color]
+[color=#000000]???: no hagan nada estupido[/color]
+[color=#000000]???: primero escuchen lo que tengo que decir[/color]
+
+# pagina 10
+[color=#008431]ruben: ehh[/color]
+[color=#ff1010]ismael: y tu eres?[/color]
+
+# pagina 11
+[color=#000000]???: recibi tu mensaje[/color]
+[color=#000000]???: apenas llego vine corriendo[/color]
+[color=#008431]ruben: ehh[/color]
+[color=#008431]ruben: sigo sin saber quien eres[/color]
+[color=#0039ce]alicia: soy alicia[/color]
+[color=#0039ce]alicia: ibamos juntos en la prepa[/color]
+[color=#0039ce]alicia: ¿no me recuerdas?[/color]
+[color=#008431]ruben: ehhhhhh[/color]
+[color=#0039ce]alicia: da igual[/color]
+[color=#0039ce]alicia: el caso es que estudio psicologia[/color]
+[color=#0039ce]alicia: y es mi resposabilidad profesional asegurarme de que no suceda lo que planean[/color]
+[color=#008431]ruben: ehhhhhh[/color]
+[color=#008431]ruben: y como sabes donde vivo?[/color]
+[color=#0039ce]alicia: un dia me mandaste mensaje a las 3 de la mañana con tu ubicacion[/color]
+[color=#0039ce]alicia: decias "caile o q"[/color]
+[color=#008431]ruben: y le caiste?[/color]
+[color=#0039ce]alicia: no[/color]
+[color=#008431]ruben: ehhhhhh[/color]
+[color=#ff1010]ismael: ehhhhhh[/color]
+[color=#0039ce]alicia: podrian quitarse la soga mientras hablamos?[/color]
+
+# pagina 12
+[color=#ff1010]ismael: ah si[/color]
+[color=#ff1010]ismael: perdon[/color]
+[color=#0039ce]alicia: sientense mientras tomamos una sesion improvisada[/color]
+
+# pagina 13
+[color=#0039ce]alicia: aver chicos[/color]
+[color=#0039ce]alicia: ¿que pasa?[/color]
+[color=#0039ce]alicia: ¿porque quieren suicidarse?[/color]
+[color=#008431]ruben: se suicido un tipo que odiamos a muerte[/color]
+[color=#008431]ruben: hace como un año prometimos que viviriamos para joderle la vida[/color]
+[color=#008431]ruben: pero eso[/color]
+[color=#0039ce]alicia: ¿y como se llamaba el "tipo"?[/color]
+[color=#ff1010]ismael: esteban[/color]
+[color=#0039ce]alicia: ¿esteban?[/color]
+[color=#0039ce]alicia: como nuestro compañero de la preparatoria?[/color]
+[color=#ff1010]ismael: iba con nosotros en la primaria[/color]
+[color=#008431]ruben: yo no fui contigo en la primaria[/color]
+[color=#008431]ruben: ya hemos tenido esta conversacion como 20 veces[/color]
+[color=#ff1010]ismael: ¿a si?[/color]
+[color=#ff1010]ismael: ¿entonces de donde conoces a esteban?[/color]
+[color=#008431]ruben: iba conmigo en la preparatoria[/color]
+[color=#0039ce]alicia: ¿y se sentaba delante de ti?[/color]
+[color=#008431]ruben: seh[/color]
+[color=#0039ce]alicia: ay dios[/color]
+[color=#0039ce]alicia: si el era mi novio en la preparatoria[/color]
+[color=#008431]ruben: ¿en serio?[/color]
+[color=#008431]ruben: ¿y no lo odias o algo?[/color]
+[color=#0039ce]alicia: ¿que?[/color]
+[color=#0039ce]alicia: claro que no[/color]
+[color=#0039ce]alicia: aver, no terminamos bien[/color]
+[color=#0039ce]alicia: pero tampoco terminamos mal[/color]
+[color=#0039ce]alicia: ¿en serio no lo recuerdas?[/color]
+[color=#008431]ruben: nop[/color]
+[color=#0039ce]alicia: ¿porque entonces me mandaste mensaje?[/color]
+[color=#008431]ruben: se lo reenvie como a otras 20 tipas[/color]
+[color=#0039ce]alicia: ...[/color]
+[color=#0039ce]alicia: mira[/color]
+[color=#0039ce]alicia: que da igual[/color]
+
+# pagina 14
+[color=#0039ce]alicia: a esteban lo conoci un dia que estabamos platicando con rogelio[/color]
+[color=#0039ce]alicia: discutiamos si se le tenia que decir "huevo con jamon" o "jamon con huevo"[/color]
+[color=#0039ce]alicia: yo les decia que se le hechaba mas jamon que huevo, ademas de que primero se le pone el jamon[/color]
+[color=#0039ce]alicia: por lo que tiene que ser jamon con huevo[/color]
+[color=#ff1010]ismael: (oye)[/color]
+[color=#008431]ruben: (que)[/color]
+[color=#ff1010]ismael: (¿de verdad la conces?)[/color]
+[color=#008431]ruben: (no tengo idea)[/color]
+[color=#008431]ruben: (ni si quiera recuerdo de lo que me esta halando)[/color]
+[color=#ff1010]ismael: (parece que nunca se va a callar)[/color]
+[color=#008431]ruben: (shh)[/color]
+[color=#008431]ruben: (esta volteando)[/color]
+[color=#0039ce]alicia: el caso es que llego esteban, y me dio la razon[/color]
+
+# pagina 15
+[color=#0039ce]alicia: apenas llego tu desapareciste[/color]
+[color=#008431]ruben: (de verdad que no se de que esta hablando)[/color]
+
+# pagina 16
+[color=#008431]ruben: ehh[/color]
+[color=#008431]ruben: muy bonita historia[/color]
+[color=#008431]ruben: pero estabamos en medio de un suicidio[/color]
+[color=#008431]ruben: entonces...[/color]
+[color=#0039ce]alicia: ¿suicidio?[/color]
+[color=#0039ce]alicia: ¿de verdad pensaban suicidarse con eso?[/color]
