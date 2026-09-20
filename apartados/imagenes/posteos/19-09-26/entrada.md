@@ -1,0 +1,2 @@
+señoras y señores, aqui mi **CLOWNSONA**. <br>
+por mucho tiempo he escondido que soy un ![JUGGALO](https://www.google.com/search?q=juggalo&oq=juggalo&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEHOTI2ajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8), pero ya no mas. no volvere a esconder que soy un gran fanatico del grupo ![INSANE CLOWN POSSE](https://www.youtube.com/watch?v=wKlpMxBX-jk&list=RDwKlpMxBX-jk&start_radio=1), y que mi estilo de vida es el de un **juggalo conservador**.
